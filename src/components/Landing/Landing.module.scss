@@ -1,0 +1,140 @@
+.landing {
+    height: 100vh;
+    box-sizing: border-box;
+
+    .header {
+        margin: 30px 60px;
+
+        .logo {
+            display: flex;
+            align-items: center;
+
+            .image {
+
+                .topDots,
+                .bottomDots {
+                    display: flex;
+                    align-items: center;
+                    margin: 3px 0;
+
+                    .dot {
+                        background-color: #1E1E1E;
+                        width: 10px;
+                        height: 10px;
+                        border-radius: 50%;
+                        margin: 0 3px;
+                    }
+                }
+            }
+
+            .logoText {
+                h3 {
+                    font-size: 1.8rem;
+                    margin: 0 0 0 10px;
+                }
+            }
+        }
+    }
+
+    .body {
+        height: 85%;
+        background-color: #ffffff;
+        background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('../../assets/carbon-fibre.png');
+        margin: 30px;
+        border-radius: 20px;
+
+        .landingPage {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .image {
+                width: 70px;
+                height: 70px;
+                border-radius: 6px;
+                background-color: #ffffff;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                .topDots,
+                .bottomDots {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 3px 0;
+
+                    .dot {
+                        background-color: #1E1E1E;
+                        width: 15px;
+                        height: 15px;
+                        border-radius: 50%;
+                        margin: 0 3px;
+                    }
+                }
+            }
+
+            .tagLine {
+                margin: 30px 0;
+                text-align: center;
+                line-height: 450%;
+
+                h2 {
+                    font-family: 'quicksand', sans-serif;
+                    color: #1E1E1E;
+                    font-size: 2.5rem;
+
+                    span {
+                        color: #737373;
+                    }
+                }
+
+            }
+
+            button {
+                padding: 12px 24px;
+                border-radius: 6px;
+                background-color: #61DAFB;
+                color: #ffffff;
+                border: none;
+                outline: none;
+                font-size: 1.5rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+            }
+
+            p {
+                margin: 40px 0;
+
+                a {
+                    text-decoration: none;
+                    color: #61DAFB;
+                }
+            }
+        }
+
+        .loginPage {
+            height: 100%;
+            padding: 30px;
+
+            .video {
+                width: 50%;
+                height: 70%;
+                margin: 0 auto;
+
+                video {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 20px;
+                }
+            }
+        }
+    }
+}
